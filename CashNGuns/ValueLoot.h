@@ -9,7 +9,7 @@ private:
 	int value;
 
 public:
-	ValueLoot(int value);
+	ValueLoot(int value, int id, string name);
 	int getValue() {
 		return value;
 	}
