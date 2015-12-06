@@ -5,6 +5,14 @@
 
 class ValueLoot : public Loot {
 
+private:
+	int value;
+
+public:
+	ValueLoot(int value);
+	int getValue() {
+		return value;
+	}
 
 };
 
